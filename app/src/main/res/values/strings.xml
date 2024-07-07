@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sportopia1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup_to_sportopia">Signup to Sportopia!</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="email">Email</string>
+    <string name="or_signup_with">or signup with</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="gear_up_for_victory_welcome_to_your_sports_haven">gear_up_for_victory_welcome_to_your_sports_haven</string>
+    <string name="congratulations_your_order_has_been_placed_successfully">Congratulations! Your Order has been placed Successfully</string>
+</resources>

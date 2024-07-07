@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Profile"
+    android:layout_marginHorizontal="40dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_view"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/template_profilepicture"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_view_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/edit_icon"
+            android:layout_marginTop="120dp"
+            android:layout_toEndOf="@id/image_view"
+            android:layout_marginStart="-80dp"
+
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/et_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:inputType="text"
+            android:hint="@string/full_name"
+            android:layout_below="@id/image_view"
+            android:background="@drawable/et_custom_bg"
+            android:paddingHorizontal="20dp"
+            />
+        <EditText
+            android:id="@+id/et_nick_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nick Name"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@id/et_full_name"
+            android:background="@drawable/et_custom_bg"
+            android:paddingHorizontal="20dp"
+
+            />
+        <EditText
+            android:id="@+id/et_date_of_birth"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/date_of_birth"
+            android:inputType="date"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@id/et_nick_name"
+            android:layout_marginBottom="15dp"
+            android:drawableEnd="@drawable/calendar_icon"
+            android:background="@drawable/et_custom_bg"
+            android:paddingHorizontal="20dp"
+            />
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/email"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/et_date_of_birth"
+            android:background="@drawable/et_custom_bg"
+            android:drawableEnd="@drawable/email_icon"
+            android:layout_marginBottom="15dp"
+            android:paddingHorizontal="20dp"
+            />
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Phone NUmber"
+            android:inputType="number"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@id/et_email"
+            android:background="@drawable/et_custom_bg"
+            android:drawableEnd="@drawable/mobile_numbers_icon"
+            android:layout_marginBottom="15dp"
+            android:paddingHorizontal="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_geneder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/et_phone"
+            android:layout_marginTop="0dp"
+            android:hint="Gender"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/et_custom_bg"
+            android:drawableEnd="@drawable/gender_icon"
+            android:layout_marginBottom="15dp"
+            android:paddingHorizontal="20dp"
+            />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Continue"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/et_geneder"
+            android:backgroundTint="#03A9F4"
+            />
+    </RelativeLayout>
+
+
+
+</ScrollView>

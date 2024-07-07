@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PaymentActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_orders_fname"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="15dp"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:background="@drawable/et_custom_bg"
+            />
+
+        <EditText
+            android:id="@+id/et_orders_pnumber"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="15dp"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:background="@drawable/et_custom_bg"
+            />
+
+        <EditText
+            android:id="@+id/et_orders_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="15dp"
+            android:hint="Address"
+            android:inputType="text"
+            android:background="@drawable/et_custom_bg"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/et_custom_bg"
+            android:drawableLeft="@drawable/easypaisa_icon"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20sp"
+            android:text="Easy Paisa" />
+
+        <RadioButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="375dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/et_custom_bg"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/jazzcash_svgrepo_com"
+            android:gravity="center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Jazz Cash" />
+
+        <RadioButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="440dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/et_custom_bg"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/mastercard_icon"
+            android:gravity="center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Master Card" />
+
+        <RadioButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/et_custom_bg"
+            android:drawableLeft="@drawable/visa_icon"
+            android:gravity="center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Visa Card" />
+
+        <RadioButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_place_order"
+        android:layout_marginTop="550dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Your Order"
+        android:padding="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+
+
+  </RelativeLayout
+   >
